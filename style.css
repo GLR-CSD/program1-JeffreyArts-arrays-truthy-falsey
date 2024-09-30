@@ -1,0 +1,45 @@
+body {
+    background-color: #eaeae0;
+    color:#5a5a37;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: #252123;
+    font-weight: 500;
+}
+h2 {
+    color: #252123;
+    font-weight: 100;
+}
+/* Grid and square styles */
+ figure {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 20px); /* Automatically adjust columns */
+    gap: 5px;
+    margin: 0;
+}
+
+.square {
+    display: inline-block;
+    font-size: 48px;
+    line-height: .5em;
+}
+
+.__isTrue {
+    color: #b52c30;
+}
+
+.__isFalse {
+    color: #e49527;
+}
+hr {
+    outline: 0 none transparent;
+    border: 1px solid currentColor;
+    margin-top: 20px;
+}
+
+/* Optional styling for the <pre> tag */
+pre {
+    font-family: monospace;
+    font-size: 14px;
+}
